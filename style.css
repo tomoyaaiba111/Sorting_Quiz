@@ -1,0 +1,65 @@
+div.is-hidden {
+    display: none;
+}
+div.is-visible {
+    display: block;
+}
+body {
+    text-align: center;
+    user-select: none;
+}
+.answer {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #333;/*文字色*/
+    background: #b1f1e9;/*背景色*/
+    border: solid 3px #b1f1e9;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.select {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #333;/*文字色*/
+    background: #b1f1e9;/*背景色*/
+    border: solid 3px #b1f1e9;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.select:hover {
+    background: #333;/*背景色*/
+    border: 2px solid #333;
+    color: #fff;/*文字色*/
+    cursor: pointer;/*カーソルをポインターに変える*/
+}
+
+h1 {
+    font-weight: bold;
+    color: #333;/*文字色*/
+}
+
+p {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #069b89;/*文字色*/
+}
+#start:hover {
+    border: 2px solid #333;/*線*/
+    cursor: pointer;/*カーソルをポインターに変える*/
+}
+.button{
+    display: inline-block;
+    padding: 10px 30px; 
+    margin: 3px 10px;
+    text-decoration: none; 
+    font-weight: bold;
+    color: white; 
+    background: #b1f1e9;
+    border: 2px solid #b1f1e9;
+    box-shadow: 5px 5px 0 #bbb;
+    transition: box-shadow .25s;
+    border-radius: 10px;/*角の丸み*/
+}
